@@ -1,30 +1,509 @@
 {
-    "colors": "red,blue,green,gold,silver,yellow,purple,orange,white,black,brown,grey",
-    "element": "fire,water,earth,air,mud,electricity,darkness,holiness,wilderness,diamond,air,energy,light,ice,vegetation,stone,cloud,metal,silence,shadow,lava,storm,spirit,wind,love,mystery,time,sun,moon,spark,mirrorimage,skeleton,volcano,reflection,crystallinity,thunder,ocean,sand,thunderstorm,starlight,galaxy,harmony,void,emerald,hurricane,rainbow,snowflake,aurora",
+    "range_beast_amount": "1-13",
+    "range_riches": "0.1-2",
     "beast": [
         {
+            "name": "Inferno Dragon",
+            "description": "The Inferno Dragon is a fearsome creature that breathes scorching flames, turning its enemies to ashes. Its fiery nature and red scales make it a symbol of destruction and power.",
+            "element": "fire",
+            "color": "red",
+            "species": "dragon",
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Abyssal Gold Dragon",
+            "description": "The Abyssal Gold Dragon is a legendary creature of darkness, with shimmering golden scales that emit an eerie glow. It possesses ancient and arcane powers, often associated with the unknown and the forbidden.",
+            "element": "darkness",
+            "color": "gold",
+            "species": "dragon",
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Frosty Yeti",
+            "description": "The Frosty Yeti roams the frozen landscapes, leaving behind icy trails wherever it treads. Its chilling presence and icy blue fur make it a creature of both wonder and danger in the icy realms.",
+            "element": "ice",
+            "color": "blue",
+            "species": "yeti",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Whispering Snow Owl",
+            "description": "The Whispering Snow Owl is a majestic creature of the skies, known for its ethereal beauty and soothing calls that echo through snowy valleys. It is a symbol of wisdom and serenity.",
+            "element": "air",
+            "color": "white",
+            "species": "owl",
+            "boss": false,
+            "level": "easy"
+        },
+        {
+            "name": "Shadow Serpent",
+            "description": "The Shadow Serpent slithers through the dark corners of the labyrinth, its scales absorbing all light. Its sinister presence and venomous bite make it a fearsome guardian of the nightmares.",
+            "element": "darkness",
+            "color": "black",
+            "species": "serpent",
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Cursed Specter",
+            "description": "The Cursed Specter is a tormented soul trapped within the labyrinth's walls. Its mournful wails and ghostly form haunt those who dare to venture into its domain.",
+            "element": "spirit",
+            "color": "pale",
+            "species": "specter",
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Frostbite Wraith",
+            "description": "The Frostbite Wraith drifts silently through icy corridors, freezing the air around it. Its touch brings an icy chill that seeps into the bones of anyone unfortunate enough to cross its path.",
+            "element": "ice",
+            "color": "icy blue",
+            "species": "wraith",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Ethereal Harpy",
+            "description": "The Ethereal Harpy soars gracefully above the labyrinth, its haunting melodies echoing through the twisted passages. Its mesmerizing songs can lull even the bravest souls into a trance.",
+            "element": "air",
+            "color": "translucent",
+            "species": "harpy",
+            "boss": false,
+            "level": "easy"
+        },
+        {
+            "name": "Blazing Gargoyle",
+            "description": "The Blazing Gargoyle stands guard at the entrance of the labyrinth, its stone form ignited with eternal flames. It serves as both a protector and a symbol of the labyrinth's fiery trials.",
+            "element": "fire",
+            "color": "fiery red",
+            "species": "gargoyle",
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Nightmare Shifter",
+            "description": "The Nightmare Shifter is a shape-shifting entity that morphs into the deepest fears of those who enter the labyrinth. Its ability to manipulate reality makes it a master of psychological torment.",
+            "element": "shadow",
+            "color": "shifting",
+            "species": "shifter",
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Frozen Banshee",
+            "description": "The Frozen Banshee's mournful wails freeze the hearts of wanderers within the labyrinth. Its chilling aura and icy tears create an atmosphere of sorrow and despair.",
+            "element": "ice",
+            "color": "frosty white",
+            "species": "banshee",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Abyssal Spider",
+            "description": "The Abyssal Spider weaves its intricate webs throughout the labyrinth, ensnaring unwary travelers. Its eight legs and darkness-infused silk make it a creature of both beauty and danger.",
+            "element": "darkness",
+            "color": "ebony",
+            "species": "spider",
+            "boss": false,
+            "level": "easy"
+        },
+        {
+            "name": "Eldritch Owl",
+            "description": "The Eldritch Owl's hooting echoes through the labyrinth, foretelling eerie prophecies. Its eyes hold ancient knowledge, and its feathers shimmer with otherworldly secrets.",
+            "element": "arcane",
+            "color": "mystic gray",
+            "species": "owl",
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Ruined Sphinx",
+            "description": "The Ruined Sphinx stands as a sentinel amidst the crumbling architecture of the lost city. Its weathered stone visage holds the secrets of a forgotten civilization, and its enigmatic gaze guards hidden knowledge.",
+            "element": "earth",
+            "color": "weathered gray",
+            "species": "sphinx",
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Luminous Spirit",
+            "description": "The Luminous Spirit is a radiant being that illuminates the darkened alleyways of the lost city. Its gentle presence brings comfort to those who wander the forsaken streets, offering a glimmer of hope.",
+            "element": "light",
+            "color": "ethereal",
+            "species": "spirit",
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Echoing Phantom",
+            "description": "The Echoing Phantom's footsteps reverberate through the empty squares of the lost city, its form flickering in and out of existence. It is a manifestation of the city's past, forever trapped in a haunting loop.",
+            "element": "shadow",
+            "color": "translucent",
+            "species": "phantom",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Aetherial Harbinger",
+            "description": "The Aetherial Harbinger hovers above the decaying spires, its melodious tunes carrying echoes of bygone eras. Its music stirs long-forgotten memories, igniting a sense of nostalgia in those who hear it.",
+            "element": "air",
+            "color": "mystic",
+            "species": "harbinger",
+            "boss": false,
+            "level": "easy"
+        },
+        {
+            "name": "Desert Mirage Djinn",
+            "description": "The Desert Mirage Djinn materializes in the shimmering heat of the lost oasis, its form twisting like the shifting sands. It grants wishes to weary travelers, but its desires often come with unexpected consequences.",
+            "element": "sand",
+            "color": "golden",
+            "species": "djinn",
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Radiant Oasis Nymph",
+            "description": "The Radiant Oasis Nymph emerges from the tranquil waters of the oasis, its aura rejuvenating the weary souls who seek refuge. Its presence brings life and vitality to the barren desert surroundings.",
+            "element": "water",
+            "color": "aquamarine",
+            "species": "nymph",
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Phantom Palm Serpent",
+            "description": "The Phantom Palm Serpent winds its way through the palm groves surrounding the oasis, its scales mirroring the colors of the lush foliage. It guards the secrets of the oasis with a watchful eye.",
+            "element": "nature",
+            "color": "verdant",
+            "species": "serpent",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Zephyr Oasis Harpy",
+            "description": "The Zephyr Oasis Harpy dances on the desert winds, its melodious songs carrying the promise of cool breezes. It guides lost wanderers to the life-giving waters, offering solace in the arid wasteland.",
+            "element": "air",
+            "color": "azure",
+            "species": "harpy",
+            "boss": false,
+            "level": "easy"
+        },
+        {
+            "name": "Ember Phoenix",
+            "description": "The Ember Phoenix rises from the heart of the oasis, its fiery plumage glowing with the colors of sunset. It is a symbol of renewal and transformation, carrying the oasis's life force within its flames.",
+            "element": "fire",
+            "color": "fiery orange",
+            "species": "phoenix",
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Veilweaver Sand Wraith",
+            "description": "The Veilweaver Sand Wraith blends seamlessly with the desert dunes, its presence elusive and mysterious. It weaves illusions to protect the oasis, ensuring its hidden treasures remain undiscovered.",
+            "element": "illusion",
+            "color": "sandy beige",
+            "species": "wraith",
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Whispering Sand Serpent",
+            "description": "The Whispering Sand Serpent slithers through the shifting dunes of the lost oasis, its scales reflecting the colors of the sunlit sands. Its sinuous movements and enchanting hisses bewitch wanderers, leading them to the hidden waters.",
+            "element": "earth",
+            "color": "sandy gold",
+            "species": "serpent",
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Luminescent Oasis Sprite",
+            "description": "The Luminescent Oasis Sprite flits among the palm fronds, casting a gentle glow that illuminates the nighttime oasis. Its radiant aura draws travelers to its shimmering presence, promising respite and rejuvenation.",
+            "element": "light",
+            "color": "glowing",
+            "species": "sprite",
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Mystic Mirage Jackal",
+            "description": "The Mystic Mirage Jackal prowls the edges of the lost oasis, its fur blending with the desert sands. It possesses the ability to manipulate illusions, leading lost souls on a surreal journey through the oasis's illusions.",
+            "element": "illusion",
+            "color": "sand-toned",
+            "species": "jackal",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Zephyr Oasis Sylph",
+            "description": "The Zephyr Oasis Sylph dances upon the winds that sweep across the oasis, its graceful movements conjuring soothing breezes. It is a guardian of the oasis's tranquility, watching over its waters with an ethereal presence.",
+            "element": "air",
+            "color": "pale blue",
+            "species": "sylph",
+            "boss": false,
+            "level": "easy"
+        },
+        {
+            "name": "Ember Lizard",
+            "description": "The Ember Lizard basks in the warmth of the oasis's sunlight, its scales shimmering with fiery hues. It embodies the spirit of the oasis's life-giving energy, bringing vitality and heat to the desert sanctuary.",
+            "element": "fire",
+            "color": "ember red",
+            "species": "lizard",
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Veiled Oasis Guardian",
+            "description": "The Veiled Oasis Guardian stands sentinel amidst the shimmering waters, its form concealed by illusionary veils. It protects the oasis's purity, allowing only those with true intentions to approach its life-sustaining source.",
+            "element": "water",
+            "color": "translucent",
+            "species": "guardian",
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Ancient Lore Guardian",
+            "description": "The Ancient Lore Guardian stands watch over the hallowed halls of the Temple of Legends, its presence a testament to the accumulated wisdom of ages past. It embodies the guardianship of ancient secrets and is a guide to those who seek knowledge.",
+            "element": "wisdom",
+            "color": "ancient bronze",
+            "species": "guardian",
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Chrono Enchanter",
+            "description": "The Chrono Enchanter weaves the threads of time within the Temple of Legends, its magical spells echoing the stories of bygone eras. It enchants the very history of the temple, enabling those who enter to glimpse the legends that shaped the world.",
+            "element": "time",
+            "color": "mystic turquoise",
+            "species": "enchanter",
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Ethereal Archivist",
+            "description": "The Ethereal Archivist tends to the vast libraries of the Temple of Legends, its translucent form gliding through shelves of ancient tomes. It holds the repository of legends, ensuring their preservation for future generations of seekers.",
+            "element": "spirit",
+            "color": "pale parchment",
+            "species": "archivist",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Mythbound Sphinx",
+            "description": "The Mythbound Sphinx graces the entrance of the Temple of Legends, its riddles and enigmas challenging the worthy to unlock the secrets within. It embodies the intertwining of truth and myth, guarding the passage to timeless legends.",
+            "element": "puzzle",
+            "color": "enigmatic gold",
+            "species": "sphinx",
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Whispering Echo Priest",
+            "description": "The Whispering Echo Priest roams the sacred halls of the Temple of Legends, its soft chants carrying the voices of ancient heroes. It imparts the teachings of legends through whispered prayers, guiding pilgrims on their quest for enlightenment.",
+            "element": "sound",
+            "color": "echoing white",
+            "species": "priest",
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Whispering Echo Priest",
+            "description": "The Whispering Echo Priest roams the sacred halls of the Temple of Legends, its soft chants carrying the voices of ancient heroes. It imparts the teachings of legends through whispered prayers, guiding pilgrims on their quest for enlightenment.",
+            "element": "sound",
+            "color": "echoing white",
+            "species": "priest",
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Arcane Chronicle Scribe",
+            "description": "The Arcane Chronicle Scribe records the unfolding tales of heroes and myths within the Temple of Legends, its quill inscribing magical symbols onto enchanted scrolls. It preserves the living narratives that resonate throughout the temple's hallowed halls.",
+            "element": "arcane",
+            "color": "mystic ink",
+            "species": "scribe",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Mosaic Mural Elemental",
+            "description": "The Mosaic Mural Elemental brings the legends to life within the Temple of Legends, its vibrant colors and shifting patterns depicting epic tales on the temple walls. It embodies the fusion of art and storytelling, captivating all who behold its living artistry.",
+            "element": "art",
+            "color": "vivid mosaic",
+            "species": "elemental",
+            "boss": false,
+            "level": "easy"
+        },
+        {
+            "name": "Celestial Oracle",
+            "description": "The Celestial Oracle resides in the inner sanctum of the Temple of Legends, its celestial form channeling the cosmic energies of prophecy. It bestows glimpses of future legends upon those who seek its guidance and divine insight.",
+            "element": "celestial",
+            "color": "starry luminescence",
+            "species": "oracle",
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Mythic Alchemist",
+            "description": "The Mythic Alchemist brews elixirs of legend within the alchemical chambers of the Temple of Legends, its experiments transmuting ordinary elements into potent symbols of myth. It embodies the transformation of the mundane into the extraordinary.",
+            "element": "alchemy",
+            "color": "mythical gold",
+            "species": "alchemist",
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Timeless Wanderer",
+            "description": "The Timeless Wanderer roams the sacred grounds of the Temple of Legends, its footsteps echoing with echoes of countless ages. It embodies the eternal quest for knowledge and understanding, forever seeking the truths hidden within the tapestry of legends.",
+            "element": "time",
+            "color": "time-worn silver",
+            "species": "wanderer",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Flamecrest Drake",
+            "description": "A fearsome red-scaled dragon that rules the skies over Dragon Mountains, breathing fire upon any who dare challenge its domain.",
             "element": "fire",
             "color": "red",
             "species": "dragon",
             "level": "hard"
         },
         {
+            "name": "Goldenvault Wyrm",
+            "description": "A legendary gold-colored dragon that guards the hidden treasures within the heart of Dragon Mountains, its majestic presence inspiring awe.",
             "element": "darkness",
             "color": "gold",
             "species": "dragon",
             "level": "epic"
         },
         {
+            "name": "Frostpeak Yeti",
+            "description": "A common inhabitant of the frigid peaks of Dragon Mountains, these blue-furred yetis navigate the icy terrain with ease.",
             "element": "ice",
             "color": "blue",
             "species": "yeti",
             "level": "common"
         },
         {
+            "name": "Snowfeather Owl",
+            "description": "An easygoing white owl that soars above Dragon Mountains, its silent flights a source of wisdom for those who seek it.",
             "element": "air",
             "color": "white",
             "species": "owl",
             "level": "easy"
+        },
+        {
+            "name": "Moltenclaw Drake",
+            "description": "A red-hot dragon with molten scales, dwelling deep within the volcanic caverns of Dragon Mountains and shaping the land with its fiery presence.",
+            "element": "fire",
+            "color": "red",
+            "species": "dragon",
+            "level": "hard"
+        },
+        {
+            "name": "Eclipsewing Dragon",
+            "description": "An epic creature that emerges from the shadows during celestial events, casting an aura of darkness over Dragon Mountains.",
+            "element": "darkness",
+            "color": "gold",
+            "species": "dragon",
+            "level": "epic"
+        },
+        {
+            "name": "Glacial Prowler",
+            "description": "A formidable ice-imbued creature that roams the frozen expanses of Dragon Mountains, its blue fur camouflaging it within the snowy landscape.",
+            "element": "ice",
+            "color": "blue",
+            "species": "yeti",
+            "level": "common"
+        },
+        {
+            "name": "Aerowisp Sentinel",
+            "description": "A watchful white owl that serves as a guardian of the skies above Dragon Mountains, alerting other creatures to potential dangers.",
+            "element": "air",
+            "color": "white",
+            "species": "owl",
+            "level": "easy"
+        },
+        {
+            "name": "Emberfrost Dragon",
+            "description": "A dragon of dual nature, with red and blue scales, dwelling at the convergence of fire and ice within the heart of Dragon Mountains.",
+            "element": "fire",
+            "color": "red",
+            "species": "dragon",
+            "level": "hard"
+        },
+        {
+            "name": "Luminous Aurumwyrm",
+            "description": "An awe-inspiring dragon that radiates golden light, its presence heralding ancient prophecies within the mist-shrouded Dragon Mountains.",
+            "element": "darkness",
+            "color": "gold",
+            "species": "dragon",
+            "level": "epic"
+        },
+        {
+            "name": "Eerie Swamp Serpent",
+            "description": "The Eerie Swamp Serpent slithers through the mist-covered marshes, its scales blending with the murky waters. Its sinister presence and venomous bite make it a fearsome inhabitant of the cursed swamp.",
+            "element": "water",
+            "color": "muddy green",
+            "species": "serpent",
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Blighted Marsh Harpy",
+            "description": "The Blighted Marsh Harpy dances on the foul winds that gust through the cursed swamp, its haunting melodies carrying the echoes of lost souls. It guides lost wanderers to treacherous paths, luring them deeper into the marsh.",
+            "element": "air",
+            "color": "muted gray",
+            "species": "harpy",
+            "boss": false,
+            "level": "easy"
+        },
+        {
+            "name": "Mistveil Phantom",
+            "description": "The Mistveil Phantom's ghostly form drifts through the cursed swamp, its translucent figure obscured by the thick mist. It is a manifestation of the swamp's haunting past, forever trapped in a spectral existence.",
+            "element": "spirit",
+            "color": "pale blue",
+            "species": "phantom",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Bogbound Wraith",
+            "description": "The Bogbound Wraith glides silently through the stagnant waters of the cursed swamp, its chilling presence causing the air to grow colder. Its touch drains the vitality from any who cross its path.",
+            "element": "ice",
+            "color": "frosty white",
+            "species": "wraith",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Cursed Marsh Nymph",
+            "description": "The Cursed Marsh Nymph emerges from the murky depths of the swamp, its watery form embodying the sorrow and despair that permeate the cursed land. Its mournful songs resonate through the twisted trees.",
+            "element": "water",
+            "color": "mossy green",
+            "species": "nymph",
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Shrouded Bog Guardian",
+            "description": "The Shrouded Bog Guardian stands sentinel among the gnarled trees of the cursed swamp, its form obscured by the dense fog. It protects the secrets of the swamp with an unwavering determination.",
+            "element": "nature",
+            "color": "shadowy green",
+            "species": "guardian",
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Spectral Swamp King",
+            "description": "The Spectral Swamp King rules over the cursed marsh with an iron grip, its ethereal form commanding the swamp's ghostly inhabitants. Its decrees shape the destiny of the cursed land, and its gaze chills the bravest souls.",
+            "element": "spirit",
+            "color": "misty gray",
+            "species": "king",
+            "boss": true,
+            "level": "epic"
         }
     ]
 }
