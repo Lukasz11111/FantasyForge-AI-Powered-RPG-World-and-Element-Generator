@@ -1,6 +1,4 @@
 {
-    "range_beast_amount": "1-13",
-    "range_riches": "0.1-2",
     "beast": [
         {
             "name": "Inferno Dragon",
@@ -502,6 +500,159 @@
             "element": "spirit",
             "color": "misty gray",
             "species": "king",
+            "boss": true,
+            "level": "epic"
+        },
+        {
+            "name": "Cursed Oasis Treant",
+            "description": "The Cursed Oasis Treant stands majestic and ancient, its bark twisted and gnarled with malevolence. It guards the lost oasis with an iron will, unleashing its wrath upon any who dare to desecrate its sacred grounds.",
+            "element": "earth",
+            "color": "dark brown",
+            "species": "treant",
+            "boss": true,
+            "level": "epic"
+        },
+        {
+            "name": "Crimson Peak Valley Boss",
+            "description": "The Crimson Peak Valley Boss is the most powerful creature that rules over the treacherous valley. It is a fearsome entity, with crimson-tinged armor and eyes that burn with an intense fire. Its strength and cunning are unmatched, making it a formidable adversary for any who dare to challenge it.",
+            "element": "unknown",
+            "color": "red with fire-like glow",
+            "species": "boss",
+            "boss": true,
+            "level": "boss"
+        },
+        {
+            "name": "Mystic Sprite",
+            "description": "The Mystic Sprite flits among the ancient trees of the forest, its ethereal glow illuminating the forgotten paths. It is said to possess ancient wisdom and the ability to grant mystical visions.",
+            "element": "light",
+            "color": "mystical green",
+            "species": "sprite",
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Cerulean Nymph",
+            "description": "The Cerulean Nymph dances gracefully through the ancient forest, its shimmering wings leaving a trail of iridescent light. It is known to bring peace and harmony to all who encounter it.",
+            "element": "nature",
+            "color": "cerulean blue",
+            "species": "nymph",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Verdant Treant",
+            "description": "The Verdant Treant is an ancient guardian of the ancient forest, towering over the trees with its massive form. It possesses the power to shape and protect the natural world.",
+            "element": "nature",
+            "color": "verdant green",
+            "species": "treant",
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Forest Elemental",
+            "description": "The Forest Elemental is a powerful being born of the ancient forest itself. It commands the forces of nature, with its presence bringing balance and vitality to the surrounding environment.",
+            "element": "nature",
+            "color": "earthy brown",
+            "species": "elemental",
+            "boss": true,
+            "level": "legendary"
+        },
+        {
+            "name": "Spectral Shadow",
+            "description": "The Spectral Shadow lurks in the darkest corners of the dungeon, its form blending seamlessly with the shadows. It devours the light, leaving only an eerie darkness in its wake.",
+            "element": "darkness",
+            "color": "pitch black",
+            "species": "shadow",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Venomous Serpent",
+            "description": "The Venomous Serpent slithers silently through the dungeon's corridors, its scales glistening with deadly poison. A single bite from its fangs can paralyze even the strongest warriors.",
+            "element": "poison",
+            "color": "dark green",
+            "species": "serpent",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Cavern Gargoyle",
+            "description": "The Cavern Gargoyle perches atop the dungeon's walls, its stony visage watching all who enter. It springs to life with a burst of unnatural strength to defend its territory.",
+            "element": "earth",
+            "color": "stone gray",
+            "species": "gargoyle",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Searing Salamander",
+            "description": "The Searing Salamander slithers across the scorching floor of the dungeon, its fiery red scales radiating intense heat. Its touch can leave burns that never heal.",
+            "element": "fire",
+            "color": "fiery red",
+            "species": "salamander",
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Ebon Spider",
+            "description": "The Ebon Spider weaves its intricate webs across the dungeon's corners, its shiny black exoskeleton reflecting the faint light. Its venomous bite causes excruciating pain and paralysis.",
+            "element": "darkness",
+            "color": "jet black",
+            "species": "spider",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Spectral Specter",
+            "description": "The Spectral Specter materializes from thin air, its ethereal form emitting an eerie glow. It haunts the dungeon, leaving a trail of fear and despair in its wake.",
+            "element": "spirit",
+            "color": "translucent white",
+            "species": "specter",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Corrupted Minotaur",
+            "description": "The Corrupted Minotaur roams the labyrinthine corridors of the dungeon, its body tainted by dark magic. Its immense strength and ferocity make it a formidable opponent.",
+            "element": "darkness",
+            "color": "charcoal black",
+            "species": "minotaur",
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Frostbite Golem",
+            "description": "The Frostbite Golem stands motionless in the dungeon's icy chambers, its body emanating a bone-chilling cold. It comes to life with unstoppable force to crush any intruders.",
+            "element": "ice",
+            "color": "icy white",
+            "species": "golem",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Vile Banshee",
+            "description": "The Vile Banshee wails in the depths of the dungeon, its sorrowful cries sending shivers down the spines of all who hear it. Its cursed voice can drive men mad.",
+            "element": "spirit",
+            "color": "pale blue",
+            "species": "banshee",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Shadowy Assassin",
+            "description": "The Shadowy Assassin moves silently through the dungeon's shadows, its steps masked by darkness. It strikes with deadly precision, leaving no trace of its presence.",
+            "element": "darkness",
+            "color": "shadow black",
+            "species": "assassin",
+            "boss": false,
+            "level": "common"
+        },
+        {
+            "name": "Eternal Guardian",
+            "description": "The Eternal Guardian stands as the final challenge in the dungeon, its immense power radiating from every fiber of its being. It is the ultimate test of strength and courage.",
+            "element": "unknown",
+            "color": "glimmering gold",
+            "species": "guardian",
             "boss": true,
             "level": "epic"
         }

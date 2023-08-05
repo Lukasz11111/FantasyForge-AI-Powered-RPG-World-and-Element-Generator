@@ -1,224 +1,462 @@
-[
-    {
-        "name": "dungeons of doom",
-        "level": "hard",
-        "beast_amount": 5,
-        "riches": 1
-    },
-    {
-        "name": "dragon mountains",
-        "level": "epic",
-        "beast_amount": 7,
-        "riches": 1.4
-    },
-    {
-        "name": "forest of sorrow",
-        "level": "common",
-        "beast_amount": 9,
-        "riches": 0.9
-    },
-    {
-        "name": "swamps of green slime",
-        "level": "normal",
-        "beast_amount": 4,
-        "riches": 1.2
-    },
-    {
-        "name": "lost city",
-        "level": "epic",
-        "beast_amount": 4,
-        "riches": 1.6
-    },
-    {
-        "name": "ancient ruins",
-        "level": "easy",
-        "beast_amount": 2,
-        "riches": 0.8
-    },
-    {
-        "name": "enchanted forest",
-        "level": "normal",
-        "beast_amount": 12,
-        "riches": 1.2
-    },
-    {
-        "name": "cursed swamp",
-        "level": "easy",
-        "beast_amount": 7,
-        "riches": 1.4
-    },
-    {
-        "name": "crimson peak",
-        "level": "epic",
-        "beast_amount": 13,
-        "riches": 2
-    },
-    {
-        "name": "mystic caves",
-        "level": "hard",
-        "beast_amount": 6,
-        "riches": 1.3
-    },
-    {
-        "name": "forgotten catacombs",
-        "level": "epic",
-        "beast_amount": 8,
-        "riches": 1.9
-    },
-    {
-        "name": "harmony meadow",
-        "level": "common",
-        "beast_amount": 3,
-        "riches": 0.6
-    },
-    {
-        "name": "tower of shadows",
-        "level": "normal",
-        "beast_amount": 11,
-        "riches": 1.8
-    },
-    {
-        "name": "labyrinth of nightmares",
-        "level": "hard",
-        "beast_amount": 9,
-        "riches": 1.6
-    },
-    {
-        "name": "treacherous peak",
-        "level": "common",
-        "beast_amount": 5,
-        "riches": 0.8
-    },
-    {
-        "name": "frozen wasteland",
-        "level": "hard",
-        "beast_amount": 12,
-        "riches": 1.5
-    },
-    {
-        "name": "whispering woods",
-        "level": "common",
-        "beast_amount": 5,
-        "riches": 1.1
-    },
-    {
-        "name": "fiery volcanoes",
-        "level": "normal",
-        "beast_amount": 8,
-        "riches": 1
-    },
-    {
-        "name": "abyssal caverns",
-        "level": "hard",
-        "beast_amount": 9,
-        "riches": 1.9
-    },
-    {
-        "name": "temple of legends",
-        "level": "epic",
-        "beast_amount": 10,
-        "riches": 1.4
-    },
-    {
-        "name": "lost oasis",
-        "level": "common",
-        "beast_amount": 6,
-        "riches": 0.7
-    },
-    {
-        "name": "crystal lakes",
-        "level": "easy",
-        "beast_amount": 4,
-        "riches": 0.9
-    },
-    {
-        "name": "stormy peak",
-        "level": "epic",
-        "beast_amount": 11,
-        "riches": 1.8
-    },
-    {
-        "name": "desolate canyon",
-        "level": "common",
-        "beast_amount": 3,
-        "riches": 0.4
-    },
-    {
-        "name": "ruins of chaos",
-        "level": "normal",
-        "beast_amount": 10,
-        "riches": 1
-    },
-    {
-        "name": "whispering woods",
-        "level": "easy",
-        "beast_amount": 2,
-        "riches": 0.55
-    },
-    {
-        "name": "lost oasis",
-        "level": "easy",
-        "beast_amount": 4,
-        "riches": 0.35
-    },
-    {
-        "name": "forest of sorrow",
-        "level": "easy",
-        "beast_amount": 6,
-        "riches": 0.45
-    },
-    {
-        "name": "desolate canyon",
-        "level": "easy",
-        "beast_amount": 3,
-        "riches": 0.2
-    },
-    {
-        "name": "lost city",
-        "level": "common",
-        "beast_amount": 5,
-        "riches": 1.1
-    },
-    {
-        "name": "fiery volcanoes",
-        "level": "normal",
-        "beast_amount": 8,
-        "riches": 1
-    },
-    {
-        "name": "dungeons of doom",
-        "level": "hard",
-        "beast_amount": 6,
-        "riches": 1.1
-    },
-    {
-        "name": "temple of legends",
-        "level": "epic",
-        "beast_amount": 9,
-        "riches": 1.3
-    },
-    {
-        "name": "cursed swamp",
-        "level": "easy",
-        "beast_amount": 7,
-        "riches": 1.3
-    },
-    {
-        "name": "stormy peak",
-        "level": "epic",
-        "beast_amount": 11,
-        "riches": 1.8
-    },
-    {
-        "name": "ancient ruins",
-        "level": "legendary",
-        "beast_amount": 13,
-        "riches": 2
-    },
-    {
-        "name": "mystic forest",
-        "level": "forgotten",
-        "beast_amount": 12,
-        "riches": 2
-    }
-]
+{
+    "range_beast_amount": "1-13",
+    "range_riches": "0.1-2",
+    "places": [
+        {
+            "name": "dungeons of doom",
+            "level": "hard",
+            "beast_amount": 5,
+            "riches": 1
+        },
+        {
+            "name": "dragon mountains",
+            "level": "epic",
+            "beast_amount": 7,
+            "riches": 1.4
+        },
+        {
+            "name": "forest of sorrow",
+            "level": "common",
+            "beast_amount": 9,
+            "riches": 0.9
+        },
+        {
+            "name": "swamps of green slime",
+            "level": "normal",
+            "beast_amount": 4,
+            "riches": 1.2
+        },
+        {
+            "name": "lost city",
+            "level": "epic",
+            "beast_amount": 4,
+            "riches": 1.6
+        },
+        {
+            "name": "ancient ruins",
+            "level": "easy",
+            "beast_amount": 2,
+            "riches": 0.8
+        },
+        {
+            "name": "enchanted forest",
+            "level": "normal",
+            "beast_amount": 12,
+            "riches": 1.2
+        },
+        {
+            "name": "cursed swamp",
+            "level": "easy",
+            "beast_amount": 7,
+            "riches": 1.4
+        },
+        {
+            "name": "crimson peak",
+            "level": "epic",
+            "beast_amount": 13,
+            "riches": 2
+        },
+        {
+            "name": "mystic caves",
+            "level": "hard",
+            "beast_amount": 6,
+            "riches": 1.3
+        },
+        {
+            "name": "forgotten catacombs",
+            "level": "epic",
+            "beast_amount": 8,
+            "riches": 1.9
+        },
+        {
+            "name": "harmony meadow",
+            "level": "common",
+            "beast_amount": 3,
+            "riches": 0.6
+        },
+        {
+            "name": "tower of shadows",
+            "level": "normal",
+            "beast_amount": 11,
+            "riches": 1.8
+        },
+        {
+            "name": "labyrinth of nightmares",
+            "level": "hard",
+            "beast_amount": 9,
+            "riches": 1.6
+        },
+        {
+            "name": "treacherous peak",
+            "level": "common",
+            "beast_amount": 5,
+            "riches": 0.8
+        },
+        {
+            "name": "frozen wasteland",
+            "level": "hard",
+            "beast_amount": 12,
+            "riches": 1.5
+        },
+        {
+            "name": "whispering woods",
+            "level": "common",
+            "beast_amount": 5,
+            "riches": 1.1
+        },
+        {
+            "name": "fiery volcanoes",
+            "level": "normal",
+            "beast_amount": 8,
+            "riches": 1
+        },
+        {
+            "name": "abyssal caverns",
+            "level": "hard",
+            "beast_amount": 9,
+            "riches": 1.9
+        },
+        {
+            "name": "temple of legends",
+            "level": "epic",
+            "beast_amount": 10,
+            "riches": 1.4
+        },
+        {
+            "name": "lost oasis",
+            "level": "common",
+            "beast_amount": 6,
+            "riches": 0.7
+        },
+        {
+            "name": "crystal lakes",
+            "level": "easy",
+            "beast_amount": 4,
+            "riches": 0.9
+        },
+        {
+            "name": "stormy peak",
+            "level": "epic",
+            "beast_amount": 11,
+            "riches": 1.8
+        },
+        {
+            "name": "desolate canyon",
+            "level": "common",
+            "beast_amount": 3,
+            "riches": 0.4
+        },
+        {
+            "name": "ruins of chaos",
+            "level": "normal",
+            "beast_amount": 10,
+            "riches": 1
+        },
+        {
+            "name": "dungeon of terror",
+            "level": "hard",
+            "beast_amount": 11,
+            "riches": 1.2
+        },
+        {
+            "name": "dragon's lair",
+            "level": "epic",
+            "beast_amount": 13,
+            "riches": 2
+        },
+        {
+            "name": "forest of shadows",
+            "level": "common",
+            "beast_amount": 7,
+            "riches": 0.9
+        },
+        {
+            "name": "swamp of darkness",
+            "level": "normal",
+            "beast_amount": 10,
+            "riches": 1.1
+        },
+        {
+            "name": "lost city ruins",
+            "level": "epic",
+            "beast_amount": 9,
+            "riches": 1.6
+        },
+        {
+            "name": "ancient forest",
+            "level": "easy",
+            "beast_amount": 4,
+            "riches": 0.8
+        },
+        {
+            "name": "enchanted ruins",
+            "level": "normal",
+            "beast_amount": 12,
+            "riches": 1.5
+        },
+        {
+            "name": "cursed swamp lands",
+            "level": "easy",
+            "beast_amount": 7,
+            "riches": 1.4
+        },
+        {
+            "name": "crimson peak valley",
+            "level": "epic",
+            "beast_amount": 8,
+            "riches": 1.9
+        },
+        {
+            "name": "mystic caverns",
+            "level": "hard",
+            "beast_amount": 6,
+            "riches": 1.3
+        },
+        {
+            "name": "forgotten catacombs",
+            "level": "epic",
+            "beast_amount": 9,
+            "riches": 1.9
+        },
+        {
+            "name": "harmony's meadow",
+            "level": "common",
+            "beast_amount": 5,
+            "riches": 1
+        },
+        {
+            "name": "ruins of chaos",
+            "level": "normal",
+            "beast_amount": 10,
+            "riches": 1
+        },
+        {
+            "name": "dragon mountains",
+            "level": "epic",
+            "beast_amount": 7,
+            "riches": 1.4
+        },
+        {
+            "name": "lost city ruins",
+            "level": "epic",
+            "beast_amount": 9,
+            "riches": 1.6
+        },
+        {
+            "name": "ancient ruins",
+            "level": "easy",
+            "beast_amount": 2,
+            "riches": 0.8
+        },
+        {
+            "name": "lost city",
+            "level": "epic",
+            "beast_amount": 4,
+            "riches": 1.6
+        },
+        {
+            "name": "whispering woods",
+            "level": "common",
+            "beast_amount": 5,
+            "riches": 1.1
+        },
+        {
+            "name": "crimson peak valley",
+            "level": "epic",
+            "beast_amount": 8,
+            "riches": 1.9
+        },
+        {
+            "name": "forest of shadows",
+            "level": "common",
+            "beast_amount": 7,
+            "riches": 0.9
+        },
+        {
+            "name": "harmony's meadow",
+            "level": "common",
+            "beast_amount": 5,
+            "riches": 1
+        },
+        {
+            "name": "mystic caves",
+            "level": "hard",
+            "beast_amount": 6,
+            "riches": 1.3
+        },
+        {
+            "name": "cursed swamp lands",
+            "level": "easy",
+            "beast_amount": 7,
+            "riches": 1.4
+        },
+        {
+            "name": "abyssal caverns",
+            "level": "hard",
+            "beast_amount": 9,
+            "riches": 1.9
+        },
+        {
+            "name": "crimson peak valley",
+            "level": "epic",
+            "beast_amount": 8,
+            "riches": 1.9
+        },
+        {
+            "name": "forest of sorrow",
+            "level": "common",
+            "beast_amount": 9,
+            "riches": 0.9
+        },
+        {
+            "name": "ancient ruins",
+            "level": "easy",
+            "beast_amount": 2,
+            "riches": 0.8
+        },
+        {
+            "name": "lost city ruins",
+            "level": "epic",
+            "beast_amount": 9,
+            "riches": 1.6
+        },
+        {
+            "name": "forest of shadows",
+            "level": "common",
+            "beast_amount": 7,
+            "riches": 0.9
+        },
+        {
+            "name": "whispering woods",
+            "level": "common",
+            "beast_amount": 5,
+            "riches": 1.1
+        },
+        {
+            "name": "crimson peak",
+            "level": "epic",
+            "beast_amount": 13,
+            "riches": 2
+        },
+        {
+            "name": "dungeon of terror",
+            "level": "hard",
+            "beast_amount": 11,
+            "riches": 1.2
+        },
+        {
+            "name": "whispering woods",
+            "level": "common",
+            "beast_amount": 5,
+            "riches": 1.1
+        },
+        {
+            "name": "ruins of chaos",
+            "level": "normal",
+            "beast_amount": 10,
+            "riches": 1
+        },
+        {
+            "name": "forest of shadows",
+            "level": "common",
+            "beast_amount": 7,
+            "riches": 0.9
+        },
+        {
+            "name": "forgotten catacombs",
+            "level": "epic",
+            "beast_amount": 9,
+            "riches": 1.9
+        },
+        {
+            "name": "forest of shadows",
+            "level": "common",
+            "beast_amount": 7,
+            "riches": 0.9
+        },
+        {
+            "name": "ruins of chaos",
+            "level": "normal",
+            "beast_amount": 10,
+            "riches": 1
+        },
+        {
+            "name": "crimson peak valley",
+            "level": "epic",
+            "beast_amount": 8,
+            "riches": 1.9
+        },
+        {
+            "name": "abyssal caverns",
+            "level": "hard",
+            "beast_amount": 9,
+            "riches": 1.9
+        },
+        {
+            "name": "cursed swamp",
+            "level": "easy",
+            "beast_amount": 7,
+            "riches": 1.4
+        },
+        {
+            "name": "mystic caves",
+            "level": "hard",
+            "beast_amount": 6,
+            "riches": 1.3
+        },
+        {
+            "name": "tower of shadows",
+            "level": "normal",
+            "beast_amount": 11,
+            "riches": 1.8
+        },
+        {
+            "name": "dragon mountains",
+            "level": "epic",
+            "beast_amount": 7,
+            "riches": 1.4
+        },
+        {
+            "name": "dungeon of terror",
+            "level": "hard",
+            "beast_amount": 11,
+            "riches": 1.2
+        },
+        {
+            "name": "lost oasis",
+            "level": "common",
+            "beast_amount": 6,
+            "riches": 0.7
+        },
+        {
+            "name": "forest of shadows",
+            "level": "common",
+            "beast_amount": 7,
+            "riches": 0.9
+        },
+        {
+            "name": "lost city ruins",
+            "level": "epic",
+            "beast_amount": 9,
+            "riches": 1.6
+        },
+        {
+            "name": "forest of shadows",
+            "level": "common",
+            "beast_amount": 7,
+            "riches": 0.9
+        },
+        {
+            "name": "ruins of chaos",
+            "level": "normal",
+            "beast_amount": 10,
+            "riches": 1
+        },
+        {
+            "name": "crimson peak valley",
+            "level": "epic",
+            "beast_amount": 8,
+            "riches": 1.9
+        }
+    ]
+}

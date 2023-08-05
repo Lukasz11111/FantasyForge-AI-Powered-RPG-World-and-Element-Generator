@@ -1,4 +1,24 @@
 {
-        "lost city": []
-    
+    "places": {
+        "lost city": [],
+        "ancient forest": [
+            "Mystic Sprite",
+            "Cerulean Nymph",
+            "Verdant Treant",
+            "Forest Elemental"
+        ],
+        "dungeon of terror": [
+            "Spectral Shadow",
+            "Venomous Serpent",
+            "Cavern Gargoyle",
+            "Searing Salamander",
+            "Ebon Spider",
+            "Spectral Specter",
+            "Corrupted Minotaur",
+            "Frostbite Golem",
+            "Vile Banshee",
+            "Shadowy Assassin",
+            "Eternal Guardian"
+        ]
+    }
 }
