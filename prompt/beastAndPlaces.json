@@ -19,6 +19,44 @@
             "Vile Banshee",
             "Shadowy Assassin",
             "Eternal Guardian"
+        ],
+        "whispering woods": [
+            "Whispering Willow",
+            "Silent Spirit Owl",
+            "Whispering Specter",
+            "Mystical Woodland Sprite",
+            "Whispering Woods Guardian"
+        ],
+        "crimson peak valley": [
+            "Icicle Yeti",
+            "Nightshade Phantom",
+            "Sandscale Wyrm",
+            "Crimson Flamesoul",
+            "Whispering Frostling",
+            "Cursed Stone Gargoyle",
+            "Mystic Oracle",
+            "Dreadstorm Leviathan",
+            "Crimson Peak Guardian"
+        ],
+        "crystal lakes": [
+            "Crystal Lake Serpent",
+            "Forest Crystal Sprite",
+            "Crystal Lake Guardian",
+            "Crystal Lake Elemental",
+            "Crystal Lake Titan"
+        ],
+        "crimson depths": [
+            "Fiery Inferno Dragon",
+            "Abyssal Leviathan",
+            "Shadow Serpent",
+            "Enchanting Siren",
+            "Lava Elemental",
+            "Gloomwing Bat",
+            "Cryptic Lurker",
+            "Whirlwind Vortex",
+            "Magma Golem",
+            "Eclipse Raven",
+            "Crimson Hydra"
         ]
     }
 }
