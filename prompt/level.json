@@ -1,0 +1,44 @@
+{
+"easy": {
+    "percent_chance_to_appear": 60,
+    "color_background": "gray",
+    "riches": 0.5,
+    "beast_strength": 0.3 
+},
+"common": {
+    "percent_chance_to_appear": 45,
+    "color_background": "green",
+    "riches": 0.75,
+    "beast_strength": 0.6
+},
+"normal": {
+    "percent_chance_to_appear": 35,
+    "color_background": "blue",
+    "riches": 1,
+    "beast_strength": 1
+},
+"hard":{
+    "percent_chance_to_appear": 25,
+    "color_background": "red",
+    "riches": 1.2,
+    "beast_strength": 1.4 
+},
+"epic": {
+    "percent_chance_to_appear": 15,
+    "color_background": "fiolet",
+    "riches": 1.5,
+    "beast_strength": 1.6 
+},
+"legendary":{
+    "percent_chance_to_appear": 5,
+    "color_background": "orange",
+    "riches": 2,
+    "beast_strength": 2 
+},
+"forgotten":{
+    "percent_chance_to_appear": 1,
+    "color_background": "black",
+    "riches": 2.5,
+    "beast_strength": 2.5 
+}
+}

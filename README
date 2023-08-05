@@ -1,0 +1,2 @@
+# FantasyForge: AI-Powered RPG World Generator
+Combines OpenAI's chat system and Midjourney to create an interactive RPG experience. Craft unique realms, powers, and weapons through AI-driven interactions and procedural generation. This project utilizes OpenAI API, Midjourney, and Midjourney API (https://github.com/erictik/midjourney-client.git) for a captivating role-playing adventure.

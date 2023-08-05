@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "midjourney": "^4.3.10",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "@types/node": "^20.4.5"
+  }
+}

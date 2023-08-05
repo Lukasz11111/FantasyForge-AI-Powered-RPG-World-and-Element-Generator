@@ -1,0 +1,30 @@
+{
+    "colors": "red,blue,green,gold,silver,yellow,purple,orange,white,black,brown,grey",
+    "element": "fire,water,earth,air,mud,electricity,darkness,holiness,wilderness,diamond,air,energy,light,ice,vegetation,stone,cloud,metal,silence,shadow,lava,storm,spirit,wind,love,mystery,time,sun,moon,spark,mirrorimage,skeleton,volcano,reflection,crystallinity,thunder,ocean,sand,thunderstorm,starlight,galaxy,harmony,void,emerald,hurricane,rainbow,snowflake,aurora",
+    "beast": [
+        {
+            "element": "fire",
+            "color": "red",
+            "species": "dragon",
+            "level": "hard"
+        },
+        {
+            "element": "darkness",
+            "color": "gold",
+            "species": "dragon",
+            "level": "epic"
+        },
+        {
+            "element": "ice",
+            "color": "blue",
+            "species": "yeti",
+            "level": "common"
+        },
+        {
+            "element": "air",
+            "color": "white",
+            "species": "owl",
+            "level": "easy"
+        }
+    ]
+}
