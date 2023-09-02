@@ -1,163 +1,1487 @@
-[
-   
-    {
-        "name": "desolate canyon",
-        "level": "common",
-        "beast_amount": 3,
-        "description": "A barren and desolate canyon, where eerie winds howl through the rocky formations. It's said that mysterious creatures lurk in the shadows, waiting to challenge those who venture through.",
-        "riches": 0.4,
-        "element": ["Earth", "Wind"],
-        "color": ["Brown", "Gray"],
-        "species": ["Rock Elemental", "Canyon Viper"]
-    },
-    {
-        "name": "ruins of chaos",
-        "level": "normal",
-        "beast_amount": 10,
-        "description": "Amidst the ruins of an ancient civilization, chaos reigns. Crumbling structures and forgotten artifacts create an eerie atmosphere, with both danger and untold secrets awaiting brave explorers.",
-        "riches": 1,
-        "element": ["Darkness", "Magic"],
-        "color": ["Black", "Purple"],
-        "species": ["Shadow Fiend", "Arcane Spirit"]
-    },
-    {
-        "name": "dungeon of terror",
-        "level": "hard",
-        "beast_amount": 11,
-        "description": "A foreboding dungeon, shrouded in darkness and echoing with sinister whispers. Traps and treacherous creatures guard its depths, challenging the most daring adventurers to test their mettle.",
-        "riches": 1.2,
-        "element": ["Darkness", "Fire"],
-        "color": ["Black", "Red"],
-        "species": ["Dungeon Dweller", "Inferno Imp"]
-    },
-    {
-        "name": "dragon's lair",
-        "level": "epic",
-        "beast_amount": 13,
-        "description": "Deep within the heart of treacherous mountains lies the legendary dragon's lair. Fierce flames and the scent of molten gold fill the air, as the ancient beast jealously guards its hoard of riches.",
-        "riches": 2,
-        "element": ["Fire", "Metal"],
-        "color": ["Red", "Gold"],
-        "species": ["Ancient Dragon", "Molten Golem"]
-    },
-    {
-        "name": "forest of shadows",
-        "level": "common",
-        "beast_amount": 7,
-        "description": "In the heart of the ominous forest, shadows dance and trees whisper ancient secrets. Mysterious creatures, both benevolent and malevolent, roam beneath the canopy.",
-        "riches": 0.9,
-        "element": ["Nature", "Darkness"],
-        "color": ["Green", "Black"],
-        "species": ["Shadow Panther", "Forest Sprite"]
-    },
-    {
-        "name": "swamp of darkness",
-        "level": "normal",
-        "beast_amount": 10,
-        "description": "A murky and perilous swamp, where twisted trees and murky waters hide lurking dangers. The air is heavy with the stench of decay, and the eerie croak of unseen creatures fills the air.",
-        "riches": 1.1,
-        "element": ["Water", "Darkness"],
-        "color": ["Black", "Green"],
-        "species": ["Bog Hag", "Swamp Serpent"]
-    },
-    {
-        "name": "lost city ruins",
-        "level": "epic",
-        "beast_amount": 9,
-        "description": "Among the remnants of an ancient city lies a labyrinth of ruins. Vast chambers and crumbling architecture tell tales of a forgotten civilization, while formidable guardians protect hidden treasures.",
-        "riches": 1.6,
-        "element": ["Earth", "Magic"],
-        "color": ["Brown", "Purple"],
-        "species": ["Stone Guardian", "Arcane Construct"]
-    },
-    {
-        "name": "ancient forest",
-        "level": "easy",
-        "beast_amount": 4,
-        "description": "A serene and enchanting forest, untouched by time. Sunlight filters through the leaves, illuminating tranquil glades and clear streams. Yet, even in its beauty, mysteries await those who delve into its depths.",
-        "riches": 0.8,
-        "element": ["Nature", "Light"],
-        "color": ["Green", "Gold"],
-        "species": ["Ancient Treant", "Luminous Fae"]
-    },
-    {
-        "name": "enchanted ruins",
-        "level": "normal",
-        "beast_amount": 12,
-        "description": "In the midst of ruins, magic still lingers. Ancient enchantments and bewitched artifacts hold both wonder and danger, as arcane energy crackles in the air.",
-        "riches": 1.5,
-        "element": ["Magic", "Earth"],
-        "color": ["Purple", "Brown"],
-        "species": ["Enchanted Spirit", "Stone Gargoyle"]
-    },
-    {
-        "name": "cursed swamp lands",
-        "level": "easy",
-        "beast_amount": 7,
-        "description": "The cursed swamp exudes an aura of malevolence, as if ancient hexes still haunt the misty air. Beware the wandering spirits and unnatural phenomena that plague these haunted waters.",
-        "riches": 1.4,
-        "element": ["Water", "Darkness"],
-        "color": ["Green", "Black"],
-        "species": ["Banshee", "Cursed Toad"]
-    },
-    {
-        "name": "crimson peak valley",
-        "level": "epic",
-        "beast_amount": 8,
-        "description": "Within the towering peaks lies a valley veiled in crimson hues. Eerie echoes reverberate through the cliffs, and the whispers of forgotten rituals can be heard in the wind.",
-        "riches": 1.9,
-        "element": ["Fire", "Darkness"],
-        "color": ["Red", "Black"],
-        "species": ["Infernal Phoenix", "Shadow Cultist"]
-    },
-    {
-        "name": "mystic caverns",
-        "level": "hard",
-        "beast_amount": 6,
-        "description": "Beneath the earth, ancient caverns hold secrets and dangers untold. Crystals emit an otherworldly glow, illuminating treacherous passages and the creatures that call them home.",
-        "riches": 1.3,
-        "element": ["Earth", "Crystal"],
-        "color": ["Brown", "Blue"],
-        "species": ["Crystal Guardian", "Subterranean Wyrm"]
-    },
-    {
-        "name": "forgotten catacombs",
-        "level": "epic",
-        "beast_amount": 9,
-        "description": "Beneath the surface, forgotten catacombs sprawl in darkness. Whispers of the past reverberate through the halls, and the spirits of long-lost souls guard their resting places.",
-        "riches": 1.9,
-        "element": ["Necromancy", "Darkness"],
-        "color": ["Black", "Purple"],
-        "species": ["Spectral Wraith", "Catacomb Revenant"]
-    },
-    {
-        "name": "harmony's meadow",
-        "level": "common",
-        "beast_amount": 5,
-        "description": "A peaceful meadow where harmony and tranquility reign. Colorful flowers sway in the gentle breeze, and the songs of birds create a soothing melody that enchants all who enter.",
-        "riches": 1,
-        "element": ["Nature", "Light"],
-        "color": ["Green", "White"],
-        "species": ["Harmonious Faun", "Luminous Songbird"]
-    },
-    {
-        "name": "dragon mountains",
-        "level": "epic",
-        "beast_amount": 7,
-        "description": "Among towering peaks, where dragon roars once shook the skies, lies a realm of ancient power. The very earth trembles beneath your feet, as you stand at the threshold of greatness.",
-        "riches": 1.4,
-        "element": ["Earth", "Fire"],
-        "color": ["Brown", "Red"],
-        "species": ["Mountain Guardian", "Inferno Drake"]
-    },
-    {
-        "name": "lost city ruins",
-        "level": "epic",
-        "beast_amount": 9,
-        "description": "Among the remnants of an ancient city lies a labyrinth of ruins. Vast chambers and crumbling architecture tell tales of a forgotten civilization, while formidable guardians protect hidden treasures.",
-        "riches": 1.6,
-        "element": ["Earth", "Magic"],
-        "color": ["Brown", "Purple"],
-        "species": ["Stone Guardian", "Arcane Construct"]
-    }
-]
+{
+    "beast": [
+        {
+            "name": "Luna",
+            "description": "Luna, the Moonlit Unicorn, embodies the powers of Nature and the soothing Moon. Her Telepathy fosters connections, offering wisdom and solace. With a coat of White and Pink, she roams forests, leaving tranquility in her wake.",
+            "element": [
+                "Nature",
+                "Moon",
+                "Telepathy"
+            ],
+            "color": [
+                "White",
+                "Pink"
+            ],
+            "species": [
+                "Unicorn"
+            ],
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Venomis",
+            "description": "Venomis, the Gorgon, wields Regeneration and Posion. Illusions distort reality as her Green hues weave deception. She guards secrets with her malevolent charm.",
+            "element": [
+                "Regeneration",
+                "Posion",
+                "Illusions"
+            ],
+            "color": [
+                "Green"
+            ],
+            "species": [
+                "Gorgon"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Stonewall",
+            "description": "Stonewall, the Earthbound Cyclops, commands Stone Manipulation and Gigantic Strength. Elasticity aids his adaptability. Clothed in Browns and Yellows, he stands as a symbol of raw power.",
+            "element": [
+                "Regeneration",
+                "Stone Manipulation",
+                "Gigantic Strength",
+                "Elasticity"
+            ],
+            "color": [
+                "Brown",
+                "Yellow"
+            ],
+            "species": [
+                "Cyclops"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Aurora",
+            "description": "Aurora, the Celestial Sprite, weaves Nature and Light. Her delicate form emits a calming presence, and her ethereal wings shimmer in hues of Blue and Silver.",
+            "element": [
+                "Nature",
+                "Light"
+            ],
+            "color": [
+                "Blue",
+                "Silver"
+            ],
+            "species": [
+                "Sprite"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Viperius",
+            "description": "Viperius, the Venomous Serpent, harnesses the powers of Posion and Illusions. His emerald scales conceal a cunning mind, leaving a trail of uncertainty in his wake.",
+            "element": [
+                "Posion",
+                "Illusions"
+            ],
+            "color": [
+                "Green"
+            ],
+            "species": [
+                "Serpent"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Ignis",
+            "description": "Ignis, the Ember Djinn, commands the element of Fire. His smoldering presence engulfs enemies, leaving a trail of scorch marks across the land.",
+            "element": [
+                "Fire"
+            ],
+            "color": [
+                "Red",
+                "Orange"
+            ],
+            "species": [
+                "Djinn"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Nimbus",
+            "description": "Nimbus, the Skyweaver Harpy, soars with grace through the heavens. Her mesmerizing song and control over the element of Air make her a captivating sight in the skies.",
+            "element": [
+                "Air"
+            ],
+            "color": [
+                "Gray",
+                "White"
+            ],
+            "species": [
+                "Harpy"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Sylvan",
+            "description": "Sylvan, the Verdant Nymph, is intimately connected to the heart of the forest. Her ability to commune with flora and fauna grants her insight into the mysteries of the wild.",
+            "element": [
+                "Nature"
+            ],
+            "color": [
+                "Green"
+            ],
+            "species": [
+                "Nymph"
+            ],
+            "boss": false,
+            "level": "easy"
+        },
+        {
+            "name": "Zephyr",
+            "description": "Zephyr, the Whispering Sylph, harnesses the essence of Air. Her gentle touch and ability to manipulate winds make her a gentle protector of those in need.",
+            "element": [
+                "Air"
+            ],
+            "color": [
+                "Blue",
+                "White"
+            ],
+            "species": [
+                "Sylph"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Moloch",
+            "description": "Moloch, the Inferno Fiend, embodies the relentless fury of Fire. His molten form wreaks havoc, leaving trails of destruction and ashes in his wake.",
+            "element": [
+                "Fire"
+            ],
+            "color": [
+                "Red",
+                "Black"
+            ],
+            "species": [
+                "Fiend"
+            ],
+            "boss": true,
+            "level": "epic"
+        },
+        {
+            "name": "Lithia",
+            "description": "Lithia, the Crystal Elemental, wields the power of Earth and Minerals. Her diamond-like skin reflects light, dazzling those who behold her radiant presence.",
+            "element": [
+                "Earth",
+                "Minerals"
+            ],
+            "color": [
+                "Crystal"
+            ],
+            "species": [
+                "Elemental"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Nocturna",
+            "description": "Nocturna, the Nocturnal Feline, thrives in shadows and moonlight. Her sleek obsidian fur and luminous eyes grant her the ability to navigate darkness with ease.",
+            "element": [
+                "Moon"
+            ],
+            "color": [
+                "Black"
+            ],
+            "species": [
+                "Feline"
+            ],
+            "boss": false,
+            "level": "easy"
+        },
+        {
+            "name": "Aether",
+            "description": "Aether, the Ethereal Spirit, transcends the earthly realm. Their iridescent form and ability to manipulate the fabric of reality make them an enigmatic presence.",
+            "element": [
+                "Light"
+            ],
+            "color": [
+                "Silver",
+                "Translucent"
+            ],
+            "species": [
+                "Spirit"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Mystara",
+            "description": "Mystara, the Enigmatic Oracle, possesses prophetic abilities. Veiled in mystery, her cryptic insights guide those who seek her wisdom through visions and dreams.",
+            "element": [
+                "Magic"
+            ],
+            "color": [
+                "Purple",
+                "Gold"
+            ],
+            "species": [
+                "Oracle"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Aqua",
+            "description": "Aqua, the Aquatic Siren, is mistress of the seas. Her melodious voice and control over water currents make her an alluring yet treacherous presence for sailors.",
+            "element": [
+                "Water"
+            ],
+            "color": [
+                "Blue",
+                "Teal"
+            ],
+            "species": [
+                "Siren"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Thorin",
+            "description": "Thorin, the Thunder Warden, wields the power of lightning and storms. His ironclad form and mighty hammer command the skies, enforcing the balance of nature.",
+            "element": [
+                "Thunder",
+                "Storm"
+            ],
+            "color": [
+                "Gray",
+                "Blue"
+            ],
+            "species": [
+                "Warden"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Zaraq",
+            "description": "Zaraq, the Cursed Revenant, is bound between life and death. His ethereal form and mastery of necromantic arts grant him power over the souls of the departed.",
+            "element": [
+                "Death",
+                "Necromancy"
+            ],
+            "color": [
+                "Black",
+                "Purple"
+            ],
+            "species": [
+                "Revenant"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Frost",
+            "description": "Frost, the Frostbitten Elemental, harnesses the icy chill of winter. Their crystalline form and ability to freeze landscapes bring both beauty and danger.",
+            "element": [
+                "Ice"
+            ],
+            "color": [
+                "Blue",
+                "White"
+            ],
+            "species": [
+                "Elemental"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Aurora",
+            "description": "Aurora, the Celestial Sprite, weaves Nature and Light. Her delicate form emits a calming presence, and her ethereal wings shimmer in hues of Blue and Silver.",
+            "element": [
+                "Nature",
+                "Light"
+            ],
+            "color": [
+                "Blue",
+                "Silver"
+            ],
+            "species": [
+                "Sprite"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Viperius",
+            "description": "Viperius, the Venomous Serpent, harnesses the powers of Posion and Illusions. His emerald scales conceal a cunning mind, leaving a trail of uncertainty in his wake.",
+            "element": [
+                "Posion",
+                "Illusions"
+            ],
+            "color": [
+                "Green"
+            ],
+            "species": [
+                "Serpent"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Ignis",
+            "description": "Ignis, the Ember Djinn, commands the element of Fire. His smoldering presence engulfs enemies, leaving a trail of scorch marks across the land.",
+            "element": [
+                "Fire"
+            ],
+            "color": [
+                "Red",
+                "Orange"
+            ],
+            "species": [
+                "Djinn"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Nimbus",
+            "description": "Nimbus, the Skyweaver Harpy, soars with grace through the heavens. Her mesmerizing song and control over the element of Air make her a captivating sight in the skies.",
+            "element": [
+                "Air"
+            ],
+            "color": [
+                "Gray",
+                "White"
+            ],
+            "species": [
+                "Harpy"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Sylvan",
+            "description": "Sylvan, the Verdant Nymph, is intimately connected to the heart of the forest. Her ability to commune with flora and fauna grants her insight into the mysteries of the wild.",
+            "element": [
+                "Nature"
+            ],
+            "color": [
+                "Green"
+            ],
+            "species": [
+                "Nymph"
+            ],
+            "boss": false,
+            "level": "easy"
+        },
+        {
+            "name": "Zephyr",
+            "description": "Zephyr, the Whispering Sylph, harnesses the essence of Air. Her gentle touch and ability to manipulate winds make her a gentle protector of those in need.",
+            "element": [
+                "Air"
+            ],
+            "color": [
+                "Blue",
+                "White"
+            ],
+            "species": [
+                "Sylph"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Moloch",
+            "description": "Moloch, the Inferno Fiend, embodies the relentless fury of Fire. His molten form wreaks havoc, leaving trails of destruction and ashes in his wake.",
+            "element": [
+                "Fire"
+            ],
+            "color": [
+                "Red",
+                "Black"
+            ],
+            "species": [
+                "Fiend"
+            ],
+            "boss": true,
+            "level": "epic"
+        },
+        {
+            "name": "Lithia",
+            "description": "Lithia, the Crystal Elemental, wields the power of Earth and Minerals. Her diamond-like skin reflects light, dazzling those who behold her radiant presence.",
+            "element": [
+                "Earth",
+                "Minerals"
+            ],
+            "color": [
+                "Crystal"
+            ],
+            "species": [
+                "Elemental"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Nocturna",
+            "description": "Nocturna, the Nocturnal Feline, thrives in shadows and moonlight. Her sleek obsidian fur and luminous eyes grant her the ability to navigate darkness with ease.",
+            "element": [
+                "Moon"
+            ],
+            "color": [
+                "Black"
+            ],
+            "species": [
+                "Feline"
+            ],
+            "boss": false,
+            "level": "easy"
+        },
+        {
+            "name": "Aether",
+            "description": "Aether, the Ethereal Spirit, transcends the earthly realm. Their iridescent form and ability to manipulate the fabric of reality make them an enigmatic presence.",
+            "element": [
+                "Light"
+            ],
+            "color": [
+                "Silver",
+                "Translucent"
+            ],
+            "species": [
+                "Spirit"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Mystara",
+            "description": "Mystara, the Enigmatic Oracle, possesses prophetic abilities. Veiled in mystery, her cryptic insights guide those who seek her wisdom through visions and dreams.",
+            "element": [
+                "Magic"
+            ],
+            "color": [
+                "Purple",
+                "Gold"
+            ],
+            "species": [
+                "Oracle"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Aqua",
+            "description": "Aqua, the Aquatic Siren, is mistress of the seas. Her melodious voice and control over water currents make her an alluring yet treacherous presence for sailors.",
+            "element": [
+                "Water"
+            ],
+            "color": [
+                "Blue",
+                "Teal"
+            ],
+            "species": [
+                "Siren"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Thorin",
+            "description": "Thorin, the Thunder Warden, wields the power of lightning and storms. His ironclad form and mighty hammer command the skies, enforcing the balance of nature.",
+            "element": [
+                "Thunder",
+                "Storm"
+            ],
+            "color": [
+                "Gray",
+                "Blue"
+            ],
+            "species": [
+                "Warden"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Zaraq",
+            "description": "Zaraq, the Cursed Revenant, is bound between life and death. His ethereal form and mastery of necromantic arts grant him power over the souls of the departed.",
+            "element": [
+                "Death",
+                "Necromancy"
+            ],
+            "color": [
+                "Black",
+                "Purple"
+            ],
+            "species": [
+                "Revenant"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Frost",
+            "description": "Frost, the Frostbitten Elemental, harnesses the icy chill of winter. Their crystalline form and ability to freeze landscapes bring both beauty and danger.",
+            "element": [
+                "Ice"
+            ],
+            "color": [
+                "Blue",
+                "White"
+            ],
+            "species": [
+                "Elemental"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Zephyrus",
+            "description": "Zephyrus, the Stormbringer Dragon, commands the tempestuous forces of Thunder and Wind. His massive wings create thunderous gusts, and his breath can level mountains.",
+            "element": [
+                "Thunder",
+                "Wind"
+            ],
+            "color": [
+                "Black",
+                "Blue"
+            ],
+            "species": [
+                "Dragon"
+            ],
+            "boss": true,
+            "level": "forgotten"
+        },
+        {
+            "name": "Artemis",
+            "description": "Artemis, the Lunar Huntress, wields the power of the Moon. Her silver arrows strike true under the moonlight, and her connection to nature grants her unmatched accuracy.",
+            "element": [
+                "Moon",
+                "Nature"
+            ],
+            "color": [
+                "Silver",
+                "Green"
+            ],
+            "species": [
+                "Human"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Malrok",
+            "description": "Malrok, the Abyssal Warlord, commands the depths of the Ocean and the shadows of the Void. His massive trident can create tidal waves, and his dark presence instills fear in the hearts of all who face him.",
+            "element": [
+                "Water",
+                "Darkness"
+            ],
+            "color": [
+                "Black",
+                "Blue"
+            ],
+            "species": [
+                "Warlord"
+            ],
+            "boss": true,
+            "level": "forgotten"
+        },
+        {
+            "name": "Caelia",
+            "description": "Caelia, the Soaring Seraph, is a divine being of Light and Air. Her radiant aura heals and protects, and her wings carry her across the skies to aid those in need.",
+            "element": [
+                "Light",
+                "Air"
+            ],
+            "color": [
+                "White",
+                "Gold"
+            ],
+            "species": [
+                "Seraph"
+            ],
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Luminara",
+            "description": "Luminara, the Radiant Guardian, embodies the essence of Light and Protection. Her golden armor radiates purity, and her divine shield can repel even the darkest of forces.",
+            "element": [
+                "Light",
+                "Protection"
+            ],
+            "color": [
+                "Gold",
+                "White"
+            ],
+            "species": [
+                "Guardian"
+            ],
+            "boss": true,
+            "level": "forgotten"
+        },
+        {
+            "name": "Sylvan",
+            "description": "Sylvan, the Forest Warden, is a fierce protector of the woodlands. His mastery over Nature allows him to command plants and animals alike, defending his domain with unwavering determination.",
+            "element": [
+                "Nature"
+            ],
+            "color": [
+                "Green",
+                "Brown"
+            ],
+            "species": [
+                "Warden"
+            ],
+            "boss": true,
+            "level": "epic"
+        },
+        {
+            "name": "Zephyra",
+            "description": "Zephyra, the Celestial Enchantress, weaves spells of Air and Magic. Her staff channels the winds and her ancient incantations shape the very fabric of reality.",
+            "element": [
+                "Air",
+                "Magic"
+            ],
+            "color": [
+                "Blue",
+                "Silver"
+            ],
+            "species": [
+                "Enchantress"
+            ],
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Oblivion",
+            "description": "Oblivion, the Voidwalker, is an enigmatic being from the depths of the cosmos. His shadowy form can consume all light, and his mastery of Darkness allows him to manipulate reality itself.",
+            "element": [
+                "Darkness"
+            ],
+            "color": [
+                "Black",
+                "Purple"
+            ],
+            "species": [
+                "Voidwalker"
+            ],
+            "boss": true,
+            "level": "legendary"
+        },
+        {
+            "name": "Borealis",
+            "description": "Borealis, the Polar Serpent, roams the icy wastelands. His freezing breath and scales of diamond-like ice make him a formidable foe, chilling the hearts of all who cross his path.",
+            "element": [
+                "Ice"
+            ],
+            "color": [
+                "Blue",
+                "White"
+            ],
+            "species": [
+                "Serpent"
+            ],
+            "boss": true,
+            "level": "epic"
+        },
+        {
+            "name": "Drakonos",
+            "description": "Drakonos, the Eternal Dragon, is a legendary creature of Fire and Wisdom. His ageless gaze holds ancient knowledge, and his fiery breath can lay waste to kingdoms or ignite the flames of inspiration.",
+            "element": [
+                "Fire",
+                "Wisdom"
+            ],
+            "color": [
+                "Red",
+                "Gold"
+            ],
+            "species": [
+                "Dragon"
+            ],
+            "boss": true,
+            "level": "legendary"
+        },
+        {
+            "name": "Eclipse",
+            "description": "Eclipse, the Twilight Sorceress, harnesses the powers of the Moon and Darkness. Her mysterious spells can manipulate shadows and reveal hidden truths under the shroud of night.",
+            "element": [
+                "Moon",
+                "Darkness"
+            ],
+            "color": [
+                "Purple",
+                "Black"
+            ],
+            "species": [
+                "Sorceress"
+            ],
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Argentus",
+            "description": "Argentus, the Silver Paladin, is a divine warrior of Light. His shimmering armor deflects both physical and spiritual attacks, and his radiant sword can banish even the most formidable of evils.",
+            "element": [
+                "Light"
+            ],
+            "color": [
+                "Silver",
+                "White"
+            ],
+            "species": [
+                "Paladin"
+            ],
+            "boss": true,
+            "level": "legendary"
+        },
+        {
+            "name": "Nyx",
+            "description": "Nyx, the Nightshade Assassin, is a master of stealth and Shadows. Her dual daggers strike with deadly precision, and her ability to meld into darkness makes her a ghostly threat in the night.",
+            "element": [
+                "Darkness",
+                "Stealth"
+            ],
+            "color": [
+                "Black",
+                "Purple"
+            ],
+            "species": [
+                "Assassin"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Celestis",
+            "description": "Celestis, the Astral Serpent, is a cosmic guardian of the stars. His scales glitter with the secrets of the universe, and his celestial breath can conjure visions of distant galaxies.",
+            "element": [
+                "Stars"
+            ],
+            "color": [
+                "Blue",
+                "Silver"
+            ],
+            "species": [
+                "Serpent"
+            ],
+            "boss": true,
+            "level": "legendary"
+        },
+        {
+            "name": "Thorn",
+            "description": "Thorn, the Thorned Lich, was once a powerful sorcerer who achieved immortality through dark magic. His decaying form is surrounded by a lethal aura of thorns, and his spells bring agony to his foes.",
+            "element": [
+                "Necromancy",
+                "Darkness"
+            ],
+            "color": [
+                "Black",
+                "Green"
+            ],
+            "species": [
+                "Lich"
+            ],
+            "boss": true,
+            "level": "forgotten"
+        },
+        {
+            "name": "Aurum",
+            "description": "Aurum, the Gilded Golem, is a colossal construct forged from precious metals. His immense strength and ability to transform his body make him an unyielding guardian of hidden treasures.",
+            "element": [
+                "Metal",
+                "Earth"
+            ],
+            "color": [
+                "Gold"
+            ],
+            "species": [
+                "Golem"
+            ],
+            "boss": true,
+            "level": "epic"
+        },
+        {
+            "name": "Sylvari",
+            "description": "Sylvari, the Verdant Enchanter, possesses the essence of Nature and Magic. His staff channels the vitality of the forest, and his enchantments can breathe life into withered lands.",
+            "element": [
+                "Nature",
+                "Magic"
+            ],
+            "color": [
+                "Green",
+                "Gold"
+            ],
+            "species": [
+                "Enchanter"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Mordred",
+            "description": "Mordred, the Shadow Knight, wields a cursed sword and harnesses the powers of Darkness. His sinister aura inspires fear, and his blade can drain the life force of those he strikes.",
+            "element": [
+                "Darkness"
+            ],
+            "color": [
+                "Black",
+                "Red"
+            ],
+            "species": [
+                "Knight"
+            ],
+            "boss": true,
+            "level": "legendary"
+        },
+        {
+            "name": "Tempest",
+            "description": "Tempest, the Storm Herald, commands the fury of Thunder and Wind. His thunderous roars and lightning-infused attacks can reshape the battlefield, leaving devastation in their wake.",
+            "element": [
+                "Thunder",
+                "Wind"
+            ],
+            "color": [
+                "Gray",
+                "Blue"
+            ],
+            "species": [
+                "Herald"
+            ],
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Erebus",
+            "description": "Erebus, the Abyssal Lord, rules over the depths of the Underworld. His shadowy presence brings dread to all who cross into his domain, and his dominion over Death is absolute.",
+            "element": [
+                "Darkness",
+                "Death"
+            ],
+            "color": [
+                "Black",
+                "Red"
+            ],
+            "species": [
+                "Lord"
+            ],
+            "boss": true,
+            "level": "forgotten"
+        },
+        {
+            "name": "Aetheria",
+            "description": "Aetheria, the Ethereal Empress, is a being of otherworldly power. Her form shimmers between dimensions, and her ability to manipulate reality makes her a true master of the arcane.",
+            "element": [
+                "Magic",
+                "Dimension"
+            ],
+            "color": [
+                "Translucent",
+                "Silver"
+            ],
+            "species": [
+                "Empress"
+            ],
+            "boss": true,
+            "level": "legendary"
+        },
+        {
+            "name": "Inferno",
+            "description": "Inferno, the Infernal Elemental, embodies the unquenchable flames of Fire. His molten body leaves trails of destruction, and his fiery eruptions consume all in their path.",
+            "element": [
+                "Fire"
+            ],
+            "color": [
+                "Red",
+                "Black"
+            ],
+            "species": [
+                "Elemental"
+            ],
+            "boss": true,
+            "level": "epic"
+        },
+        {
+            "name": "Lyra",
+            "description": "Lyra, the Celestial Bard, harnesses the power of Music and Light. Her enchanting melodies can heal and inspire, and her radiant aura uplifts the spirits of all who hear her songs.",
+            "element": [
+                "Music",
+                "Light"
+            ],
+            "color": [
+                "Gold",
+                "White"
+            ],
+            "species": [
+                "Bard"
+            ],
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Moros",
+            "description": "Moros, the Timekeeper, holds dominion over Time and Fate. His ancient hourglass can manipulate the flow of time, and his gaze can reveal the destinies of mortals.",
+            "element": [
+                "Time"
+            ],
+            "color": [
+                "Silver",
+                "Black"
+            ],
+            "species": [
+                "Timekeeper"
+            ],
+            "boss": true,
+            "level": "legendary"
+        },
+        {
+            "name": "Shadowstrike",
+            "description": "Shadowstrike, the Ebon Assassin, emerges from the depths of the Mystic Caverns. With his mastery of Darkness, he effortlessly melds with the shadows, striking fear into the hearts of his enemies.",
+            "element": [
+                "Darkness"
+            ],
+            "color": [
+                "Black"
+            ],
+            "species": [
+                "Assassin"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Aurora",
+            "description": "Aurora, the Luminous Faerie, ventures into the Mystic Caverns, bringing the light of her radiant presence. Her shimmering wings illuminate the darkness, guiding lost souls to safety.",
+            "element": [
+                "Light"
+            ],
+            "color": [
+                "White",
+                "Blue"
+            ],
+            "species": [
+                "Faerie"
+            ],
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Nebula",
+            "description": "Nebula, the Celestial Spirit, roams the vast expanse of the Mystic Caverns. Born from the cosmic energies, she glows with the colors of distant galaxies, mesmerizing all who encounter her celestial beauty.",
+            "element": [
+                "Cosmic"
+            ],
+            "color": [
+                "Purple",
+                "Blue"
+            ],
+            "species": [
+                "Spirit"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Abyssion",
+            "description": "Abyssion, the Abyssal Horror, lurks deep within the Mystic Caverns. Its tentacled form and unholy presence invoke terror in the hearts of even the bravest adventurers.",
+            "element": [
+                "Void"
+            ],
+            "color": [
+                "Black"
+            ],
+            "species": [
+                "Horror"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Ignis",
+            "description": "Ignis, the Flamebringer, descends upon the Mystic Caverns, leaving a trail of scorching embers in its wake. Its fiery presence engulfs the caverns, transforming the once mystical realm into a fiery inferno.",
+            "element": [
+                "Fire"
+            ],
+            "color": [
+                "Red",
+                "Orange"
+            ],
+            "species": [
+                "Dragon"
+            ],
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Spectra",
+            "description": "Spectra, the Enigmatic Specter, haunts the depths of the Mystic Caverns. Its translucent form glimmers with ghostly hues, causing eerie illusions to play tricks on unsuspecting intruders.",
+            "element": [
+                "Spectral"
+            ],
+            "color": [
+                "Purple",
+                "White"
+            ],
+            "species": [
+                "Specter"
+            ],
+            "boss": true,
+            "level": "legendary"
+        },
+        {
+            "name": "Lunaria",
+            "description": "Lunaria, the Lunar Sprite, dances through the night sky, casting a soft glow that illuminates the darkness. Her ethereal wings shimmer in shades of purple and silver, enchanting all who witness her celestial movements.",
+            "element": [
+                "Moon",
+                "Light"
+            ],
+            "color": [
+                "Purple",
+                "Silver"
+            ],
+            "species": [
+                "Sprite"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Vespera",
+            "description": "Vespera, the Twilight Siren, emerges from the shadows of dusk. Her hauntingly beautiful voice lulls unsuspecting wanderers into a state of mesmerism, while her dark robes blend seamlessly with the night.",
+            "element": [
+                "Darkness"
+            ],
+            "color": [
+                "Black",
+                "Purple"
+            ],
+            "species": [
+                "Siren"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Solarius",
+            "description": "Solarius, the Solar Guardian, is a majestic creature basking in the radiance of sunlight. His golden feathers create a dazzling display as he soars through the skies, emanating warmth and protection to all below.",
+            "element": [
+                "Light"
+            ],
+            "color": [
+                "Gold"
+            ],
+            "species": [
+                "Guardian"
+            ],
+            "boss": true,
+            "level": "legendary"
+        },
+        {
+            "name": "Aurelia",
+            "description": "Aurelia, the Golden Nymph, emerges from the depths of the enchanted forest. Her shimmering golden hair and iridescent wings make her a beacon of beauty and grace, and she is often sought after by those in search of eternal youth.",
+            "element": [
+                "Nature",
+                "Light"
+            ],
+            "color": [
+                "Gold",
+                "Green"
+            ],
+            "species": [
+                "Nymph"
+            ],
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Nox",
+            "description": "Nox, the Shadow Stalker, prowls silently through the ruins of chaos, his black fur blending seamlessly with the shadows. His piercing yellow eyes reflect the malevolence of the dark energies that surround him, instilling fear in the hearts of even the bravest adventurers.",
+            "element": [
+                "Darkness"
+            ],
+            "color": [
+                "Black",
+                "Yellow"
+            ],
+            "species": [
+                "Stalker"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Zephyrus",
+            "description": "Zephyrus, the Gale Spirit, commands the winds of chaos with unparalleled mastery. His translucent form whirls through the air, leaving a trail of swirling storm clouds in his wake. His powers are both awe-inspiring and unpredictable.",
+            "element": [
+                "Wind"
+            ],
+            "color": [
+                "Translucent"
+            ],
+            "species": [
+                "Spirit"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Sephtis",
+            "description": "Sephtis, the Cursed Sorcerer, is shrouded in dark magic and forbidden knowledge. His blood-red robes flow sinisterly as he casts spells that manipulate time and space. His thirst for power knows no bounds.",
+            "element": [
+                "Magic",
+                "Darkness"
+            ],
+            "color": [
+                "Black",
+                "Red"
+            ],
+            "species": [
+                "Sorcerer"
+            ],
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Silvana",
+            "description": "Silvana, the Enchanted Dryad, dwells within the ancient oak trees of the chaos ruins. Her emerald skin and vibrant foliage-crowned head make her blend seamlessly with the wild nature surrounding her. She possesses a deep connection to the earth and is known to have the ability to heal wounds with her touch.",
+            "element": [
+                "Nature"
+            ],
+            "color": [
+                "Green"
+            ],
+            "species": [
+                "Dryad"
+            ],
+            "boss": false,
+            "level": "easy"
+        },
+        {
+            "name": "Ignis",
+            "description": "Ignis, the Flame Elemental, embodies the destructive power of fire. His blazing form radiates intense heat, consuming everything in his path. His fierce temper can only be tamed by those who possess a deep understanding of the chaos flames.",
+            "element": [
+                "Fire"
+            ],
+            "color": [
+                "Red",
+                "Orange"
+            ],
+            "species": [
+                "Elemental"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Abyss",
+            "description": "Abyss, the Void Dragon, is a colossal creature that coils within the depths of the chaos ruins. Its jet-black scales absorb all light, and its piercing red eyes radiate a malevolent energy. Legend has it that this ancient dragon possesses unimaginable power, capable of devouring entire galaxies.",
+            "element": [
+                "Void"
+            ],
+            "color": [
+                "Black",
+                "Red"
+            ],
+            "species": [
+                "Dragon"
+            ],
+            "boss": true,
+            "level": "legendary"
+        },
+        {
+            "name": "Luna",
+            "description": "Luna, the Moonlit Guardian, emanates a soft glow as she gracefully moves through the night. Her connection to the moon grants her heightened senses and the ability to manipulate lunar energy.",
+            "element": [
+                "Moon",
+                "Nature"
+            ],
+            "color": [
+                "Silver",
+                "White"
+            ],
+            "species": [
+                "Guardian"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Basilisk",
+            "description": "Basilisk, the Petrifying Gaze, is a fearsome creature with the power to turn its enemies to stone. Its piercing yellow eyes and scaly green skin strike fear into the hearts of those who dare to cross its path.",
+            "element": [
+                "Poison",
+                "Earth"
+            ],
+            "color": [
+                "Green",
+                "Yellow"
+            ],
+            "species": [
+                "Beast"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Cinder",
+            "description": "Cinder, the Ember Phoenix, is a majestic bird with feathers that burn with a fiery glow. Its scorching flames and ability to resurrect from ashes make it a symbol of rebirth and transformation.",
+            "element": [
+                "Fire"
+            ],
+            "color": [
+                "Red",
+                "Orange"
+            ],
+            "species": [
+                "Phoenix"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Sylvan",
+            "description": "Sylvan, the Forest Guardian, is a noble creature who protects the ancient woods. With their mossy green fur and gentle demeanor, they have the power to communicate with all woodland creatures and harness the forces of nature.",
+            "element": [
+                "Nature"
+            ],
+            "color": [
+                "Green",
+                "Brown"
+            ],
+            "species": [
+                "Guardian"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Ignis",
+            "description": "Ignis, the Inferno Dragon, is an embodiment of pure fire. Its scales shimmer with intense heat, and its ferocious flames can reduce anything in its path to ashes. Legends say that only the bravest can tame this mighty beast.",
+            "element": [
+                "Fire"
+            ],
+            "color": [
+                "Red",
+                "Yellow"
+            ],
+            "species": [
+                "Dragon"
+            ],
+            "boss": true,
+            "level": "legendary"
+        },
+        {
+            "name": "Whisper",
+            "description": "Whisper, the Shadow Walker, moves silently through the night. Their dark presence and ability to blend into the shadows make them a formidable enemy, striking fear into the hearts of all who encounter them.",
+            "element": [
+                "Shadow"
+            ],
+            "color": [
+                "Black",
+                "Gray"
+            ],
+            "species": [
+                "Walker"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Aurora",
+            "description": "Aurora, the Frost Fairy, dances gracefully on winter nights. Her shimmering wings and icy breath bring a sense of wonder and enchantment to the frozen landscapes.",
+            "element": [
+                "Ice",
+                "Light"
+            ],
+            "color": [
+                "Blue",
+                "White"
+            ],
+            "species": [
+                "Fairy"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Blaze",
+            "description": "Blaze, the Inferno Beast, scorches everything in its path with its blazing fury. Its molten body and destructive flames make it a fearsome adversary.",
+            "element": [
+                "Fire"
+            ],
+            "color": [
+                "Red",
+                "Orange"
+            ],
+            "species": [
+                "Beast"
+            ],
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Raven",
+            "description": "Raven, the Shadow Messenger, perches silently on the rooftops, observing the world below. Their dark feathers and piercing gaze instill a sense of unease, as if they hold secrets of the night.",
+            "element": [
+                "Shadow"
+            ],
+            "color": [
+                "Black",
+                "Purple"
+            ],
+            "species": [
+                "Messenger"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Sirena",
+            "description": "Sirena, the Ocean Siren, lures sailors with her enchanting voice and mystical powers. Her shimmering tail and ability to control the tides make her a captivating and dangerous creature of the deep.",
+            "element": [
+                "Water",
+                "Music"
+            ],
+            "color": [
+                "Blue",
+                "Green"
+            ],
+            "species": [
+                "Siren"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Inferno",
+            "description": "Inferno, the Eruption Elemental, unleashes fiery eruptions that engulf the land. Its molten lava and explosive power make it a force to be reckoned with, leaving destruction in its wake.",
+            "element": [
+                "Fire",
+                "Earth"
+            ],
+            "color": [
+                "Red",
+                "Black"
+            ],
+            "species": [
+                "Elemental"
+            ],
+            "boss": false,
+            "level": "epic"
+        },
+        {
+            "name": "Gale",
+            "description": "Gale, the Wind Elemental, harnesses the power of the tempest. Their swirling winds and ability to create tornadoes make them an unpredictable and formidable opponent.",
+            "element": [
+                "Wind"
+            ],
+            "color": [
+                "Gray",
+                "White"
+            ],
+            "species": [
+                "Elemental"
+            ],
+            "boss": false,
+            "level": "hard"
+        },
+        {
+            "name": "Midnight",
+            "description": "Midnight, the Moonshadow Panther, prowls the night with its sleek black fur and piercing yellow eyes. Its silent movements and razor-sharp claws make it a skilled hunter, striking fear into the hearts of its prey.",
+            "element": [
+                "Shadow",
+                "Moon"
+            ],
+            "color": [
+                "Black"
+            ],
+            "species": [
+                "Panther"
+            ],
+            "boss": true,
+            "level": "epic"
+        },
+        {
+            "name": "Meadow",
+            "description": "Meadow, the Serene Spirit, exists in perfect harmony with nature. Its lush green grass and colorful flowers bring tranquility to all who behold its beauty.",
+            "element": [
+                "Nature"
+            ],
+            "color": [
+                "Green"
+            ],
+            "species": [
+                "Spirit"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Whisper",
+            "description": "Whisper, the Silent Guardian, moves stealthily through the meadows. Its delicate wings and ability to blend into the surroundings make it a watchful protector.",
+            "element": [
+                "Nature"
+            ],
+            "color": [
+                "Green",
+                "Brown"
+            ],
+            "species": [
+                "Fairy"
+            ],
+            "boss": false,
+            "level": "easy"
+        },
+        {
+            "name": "Harmony",
+            "description": "Harmony, the Melodic Muse, brings the soothing sounds of nature to life. Its enchanting melodies and gentle presence create a harmonious atmosphere in the meadow.",
+            "element": [
+                "Nature",
+                "Sound"
+            ],
+            "color": [
+                "Purple",
+                "Green"
+            ],
+            "species": [
+                "Nymph"
+            ],
+            "boss": false,
+            "level": "normal"
+        },
+        {
+            "name": "Blossom",
+            "description": "Blossom, the Floral Fairy, spreads beauty and joy in the meadow. Its vibrant petals and sweet fragrance attract butterflies and evoke a sense of serenity.",
+            "element": [
+                "Nature"
+            ],
+            "color": [
+                "Pink",
+                "Yellow"
+            ],
+            "species": [
+                "Fairy"
+            ],
+            "boss": false,
+            "level": "easy"
+        },
+        {
+            "name": "Serenity",
+            "description": "Serenity, the Tranquil Sprite, emanates peace and tranquility. Its ethereal form and calming presence create a serene atmosphere in harmony's meadow.",
+            "element": [
+                "Nature",
+                "Light"
+            ],
+            "color": [
+                "Blue",
+                "White"
+            ],
+            "species": [
+                "Sprite"
+            ],
+            "boss": true,
+            "level": "epic"
+        }
+    ]
+}

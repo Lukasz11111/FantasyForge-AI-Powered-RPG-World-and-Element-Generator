@@ -1,33 +1,40 @@
 import tkinter as tk
 from PIL import Image, ImageTk
+import json
+from select_box_handler import SelectBoxHandler
+from view import menu as menu
 
-def set_background_image(image_path):
-    global background_label, bg_image, img
-    img = Image.open(image_path)
-    update_background()
+class App:
+    def __init__(self, root):
+        self.root = root
+        menu.setBG(self, root)
+        self.load_places()
+        menu.setSelectBox(self, root)
+        # self.second_select_box_handler = SelectBoxHandler(self.root, root, {},self.places)
+        # self.second_select_box_handler.place(relx=0.7, rely=0.1, anchor=tk.CENTER)
 
-def update_background():
-    width, height = app.winfo_width(), app.winfo_height()
-    resized_img = img.resize((width, height), Image.ANTIALIAS)
-    bg_image = ImageTk.PhotoImage(resized_img)
-    background_label.configure(image=bg_image)
-    # Keep a reference to the image to prevent it from being garbage collected
-    background_label.image = bg_image
+        # self.select_box_handler.place(relx=0.3, rely=0.1, anchor=tk.CENTER)
 
-app = tk.Tk()
-app.title("Window with a Background Image")
+        self.root.bind("<Configure>", self.update_background)
 
-############# Set the base window size to 500x500 #############
-app.geometry("800x800")
+    def load_places(self):
+        with open("./prompt/places.json", "r") as json_file:
+            self.places=json.load(json_file)
 
-default_image_path = "./resources/img/game_board.png"
-img = Image.open(default_image_path)
+        with open("./prompt/beastAndPlaces.json", "r") as json_file:
+            self.beastAndPlaces =json.load(json_file)
 
-background_label = tk.Label(app)
-background_label.pack(fill=tk.BOTH, expand=True)
+    def update_background(self, event):
+        width, height = self.root.winfo_width(), self.root.winfo_height()
+        resized_img = self.img.resize((width, height), Image.LANCZOS)
+        self.bg_image = ImageTk.PhotoImage(resized_img)
+        self.background_label.configure(image=self.bg_image)
+        self.background_label.image = self.bg_image
 
-update_background()
+    def run(self):
+        self.root.mainloop()
 
-app.bind("<Configure>", lambda event: update_background())
-
-app.mainloop()
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = App(root)
+    app.run()

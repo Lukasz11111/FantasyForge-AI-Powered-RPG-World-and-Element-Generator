@@ -1,5 +1,56 @@
 {
     "places": {
-
+        "forest of shadows": [
+            "shadow stalker",
+            "whispering specter",
+            "cursed vinecrawler",
+            "lurking nightmare",
+            "shrouded harpy",
+            "forest wraith",
+            "nightfall behemoth",
+            "shadowlord"
+        ],
+        "mystic caverns": [
+            "Shadowstrike",
+            "Aurora",
+            "Nebula",
+            "Abyssion",
+            "Ignis",
+            "Spectra"
+        ],
+        "ruins of chaos": [
+            "Lunaria",
+            "Vespera",
+            "Solarius",
+            "Aurelia",
+            "Nox",
+            "Zephyrus",
+            "Sephtis",
+            "Silvana",
+            "Ignis",
+            "Abyss"
+        ],
+        "harmony's meadow": [
+            "Luna",
+            "Basilisk",
+            "Cinder",
+            "Sylvan",
+            "Ignis",
+            "Meadow",
+            "Whisper",
+            "Harmony",
+            "Blossom",
+            "Serenity"
+        ],
+        "crimson peak valley": [
+            "Whisper",
+            "Aurora",
+            "Blaze",
+            "Raven",
+            "Sirena",
+            "Inferno",
+            "Gale",
+            "Midnight"
+        ]
     }
 }

@@ -96,7 +96,7 @@ def places_(count_):
     prompt=f"""using the available levels: 
     {level} 
     Generate {count_} examples. 
-    Taking as an example: {select_values(places['places'], 30)}
+    Taking as an example: {select_values(places['places'], 25)}
     Remember to include limits for beast_amount {places['range_beast_amount']} and riches taking {places['range_riches']}.
     It's important that you return me only json"""
     completion=PM.chatCompletionCreate(prompt)
@@ -145,4 +145,4 @@ def getMonsterToPlace(place):
 # getMonsterToPlace( random.choice(places["places"]))
 
 
-# places_(20)
+places_(1)
