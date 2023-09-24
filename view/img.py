@@ -52,7 +52,7 @@ def trySetPathToimg(mode, name, default):
     resources_path = f'{cfg.RESOURCES}/{mode}/'
     name=name.replace(' ', '_')
     # Create the full path to the image file
-    image_path = os.path.join(resources_path, f'{name}.jpg')
+    image_path = os.path.join(resources_path, f'{name}.png')
     
     # Check if the file exists
     if os.path.isfile(image_path):

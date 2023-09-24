@@ -5,6 +5,7 @@ global PROMPT_BEAST
 global PROMPT_PLACES
 global BEAST_AND_MONSTER
 global RESOURCES
+global BEAST_FOLDER
 
 RESOURCES="./resources"
 EMPTY_PLACES=f"{RESOURCES}/img/emptyPlace.jpg"
@@ -13,3 +14,4 @@ GAME_BOARD=f"{RESOURCES}/img/game_board.png"
 PROMPT_BEAST="./prompt/beast.json"
 PROMPT_PLACES="./prompt/places.json"
 BEAST_AND_MONSTER="./prompt/beastAndPlaces.json"
+BEAST_FOLDER=f"{RESOURCES}/Beast/"

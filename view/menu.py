@@ -3,9 +3,31 @@ from PIL import Image, ImageTk
 from tkinter import ttk
 from view import img as imgService
 from src import config as cfg
+from src import prompts as prompts
+from tkinter import messagebox
+import json
+from src import midjourneyService
+
+def exit_fullscreen(self, event):
+    self.root.attributes("-fullscreen", False)  # Exit full-screen mode
+    self.root.unbind("<Escape>")  # Remove the action bound to the Escape key
+
+def load_places(self):
+    with open(cfg.PROMPT_PLACES, "r") as json_file:
+        self.places=json.load(json_file)
+
+    with open(cfg.BEAST_AND_MONSTER, "r") as json_file:
+        self.beastAndPlaces =json.load(json_file)
+        
+    with open(cfg.PROMPT_BEAST, "r") as json_file:
+        self.beast =json.load(json_file)
+
+
 def setBG(self,root):
-        self.root.title("Window with Background Image")
-        self.root.geometry("800x800+2000+-100")
+        self.root.title("AI-Powered RPG World and Element Generator")
+        self.root.attributes("-fullscreen", True)  # Set to full-screen mode
+        self.root.bind("<Escape>", lambda event: exit_fullscreen(self,event))  # Allows exiting full-screen mode by pressing the Escape key
+
 
         self.img = Image.open(cfg.GAME_BOARD)
         self.bg_image = None
@@ -82,3 +104,34 @@ def settextPlacesElement(self, root):
     self.textPlacesElement = tk.Text(root,state="disabled")
     
     return self.textPlacesElement
+
+def createBtn(self, text):
+    button = tk.Button(self.root, text=text)
+    button.pack()
+    return button
+
+def bindGenerationBtn(self, btn):
+    btn.bind("<Button-1>",lambda event: callAIgenrationAndShowResult(self) )
+
+def setPlaceSelecBoxValues(self):
+    load_places(self)
+    self.selectboxplaces.values=[place["name"] for place in self.places['places']]
+
+def callAIgenrationAndShowResult(self):
+    # todo wrzucic do watku
+    result=prompts.places_(1)
+    messagebox.showinfo("Result",f"{result}")
+    setPlaceSelecBoxValues(self)
+    
+def bindTest(self,btn):
+    btn.bind("<Button-1>",lambda event: setPlaceSelecBoxValues(self))
+    
+def generateBeastImg(self):
+    result=find_value_in_list_of_dicts(self.selectboxmonster.get(), self.beast['beast'])
+    if result!=None:
+        prompt=midjourneyService.generateBeastPrompt(result)
+        midjourneyService.startGenrateImg(prompt,"Beast",result["name"].replace(' ', '_'))
+        imgService.setImages(self,imgService.trySetPathToimg("Beast", self.selectboxmonster.get(), cfg.EMPTY_BEAST),self.imgMonsterWidth,self.imgMonsterHeight,self.monsterImg)
+        
+def bindBeastIMGGenBtn(self,btn):
+    btn.bind("<Button-1>",lambda event: generateBeastImg(self))

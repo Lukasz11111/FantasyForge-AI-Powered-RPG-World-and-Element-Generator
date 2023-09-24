@@ -18,37 +18,42 @@ class App:
         self.imgMonsterWidth=350
         self.imgMonsterHeight=350
         self.monsterImg.place(relx=0.72, rely=0.65, anchor=tk.CENTER,width=self.imgMonsterWidth,height=self.imgMonsterHeight)
-        
+        self.btnGenerate.place(relx=0.15, rely=0.13, anchor=tk.CENTER)
+        self.btnDelete.place(relx=0.15, rely=0.16, anchor=tk.CENTER)
+        self.btnTest.place(relx=0.15, rely=0.19, anchor=tk.CENTER)
+        self.btnBeastImage.place(relx=0.72, rely=0.83, anchor=tk.CENTER)
         
     def __init__(self, root):
         self.root = root
         menu.setBG(self, root)
-        self.load_places()
+        menu.load_places(self)
         # Create all componets
         self.selectboxmonster=menu.setSelectBoxMonster(self, root)
         self.selectboxplaces=menu.setSelectBoxPlaces(self, root)
         self.textPlacesElement=menu.settextPlacesElement(self, root)
         self.placeImg=imgService.setImgFrame(root)
         self.monsterImg=imgService.setImgFrame(root)
+        self.btnGenerate=menu.createBtn(self, "Generate Place And Beast (only prompt)")
+        self.btnDelete=menu.createBtn(self, "Delete select Place And all beast from this place")
+        self.btnBeastImage=menu.createBtn(self, "Crate beast image")
+        self.btnTest=menu.createBtn(self, "test")
+        
+    
+        #todo
+        # btn usuwania miejsca besti i obu
+        # btn genrowania  miejsca i besti
+        # btn genrowania obrazow
         
         # Set place to all componets
         self.grid()
         # Set images (must be after grid() because images will be resized)
         imgService.setImages(self,cfg.EMPTY_PLACES,self.imgPlaceWidth,self.imgPlaceHeight,self.placeImg)
         imgService.setImages(self,cfg.EMPTY_BEAST,self.imgMonsterWidth,self.imgMonsterHeight,self.monsterImg)
-        
-        
+        menu.bindGenerationBtn(self,self.btnGenerate)
+        menu.bindTest(self,self.btnTest)
+        menu.bindBeastIMGGenBtn(self,self.btnBeastImage)
         self.root.bind("<Configure>", self.update_background)
 
-    def load_places(self):
-        with open(cfg.PROMPT_PLACES, "r") as json_file:
-            self.places=json.load(json_file)
-
-        with open(cfg.BEAST_AND_MONSTER, "r") as json_file:
-            self.beastAndPlaces =json.load(json_file)
-            
-        with open(cfg.PROMPT_BEAST, "r") as json_file:
-            self.beast =json.load(json_file)
 
     def update_background(self, event):
         width, height = self.root.winfo_width(), self.root.winfo_height()

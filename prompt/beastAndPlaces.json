@@ -16,7 +16,13 @@
             "Nebula",
             "Abyssion",
             "Ignis",
-            "Spectra"
+            "Spectra",
+            "Mistral",
+            "Twilight",
+            "Inferna",
+            "Elysia",
+            "Verdant",
+            "Apollyon"
         ],
         "ruins of chaos": [
             "Lunaria",
@@ -28,7 +34,27 @@
             "Sephtis",
             "Silvana",
             "Ignis",
-            "Abyss"
+            "Abyss",
+            "Zephyr",
+            "Umbral",
+            "Amara",
+            "Sylvano",
+            "Torrent",
+            "Inferno",
+            "Ferrox",
+            "Nocturna",
+            "Toxicus",
+            "Nyx",
+            "Nebula",
+            "Aurelia",
+            "Blaze",
+            "Luna",
+            "Abyss",
+            "Zephyrus",
+            "Sylvan",
+            "Eclipse",
+            "Aurora",
+            "Vortex"
         ],
         "harmony's meadow": [
             "Luna",
@@ -50,7 +76,59 @@
             "Sirena",
             "Inferno",
             "Gale",
-            "Midnight"
+            "Midnight",
+            "Crimsonwing",
+            "Lavara",
+            "Shadehound",
+            "Pyroclaw",
+            "Glowmire",
+            "Crimsonvine",
+            "Emberwing",
+            "Violetshade",
+            "Flameheart",
+            "Lunar",
+            "Magma",
+            "Crimson",
+            "Shadewing",
+            "Sanguine",
+            "Raventail",
+            "Infernia"
+        ],
+        "swamp of darkness": [
+            "Darkmire",
+            "Miasma",
+            "Gloomfang",
+            "Blightroot",
+            "Shadewisp",
+            "Gloomfang",
+            "Shadeclaw",
+            "Wispwillow",
+            "Venomroot",
+            "Nyx"
+        ],
+        "desolate canyon": [
+            "Shadowfang",
+            "Emberclaw",
+            "Lithos",
+            "Ragnarok",
+            "Sylvan",
+            "Duskraze",
+            "Moltenus"
+        ],
+        "ancient forest": [
+            "Silvanna",
+            "Moonglow",
+            "Verdantus",
+            "Drakonos"
+        ],
+        "dragon mountains": [
+            "Shadowfang",
+            "Lunara",
+            "Ignis",
+            "Breeze",
+            "Vermilion",
+            "Flora",
+            "Vulkanus"
         ]
     }
 }
